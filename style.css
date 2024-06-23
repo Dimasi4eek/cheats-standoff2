@@ -1,0 +1,95 @@
+.blue {
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;margin-top: -500px;
+    margin-right: -430px;
+    letter-spacing: 5px;
+
+}
+  
+    
+
+
+
+body {
+    background: rgb(0, 38, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+button {
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-image: url(https://img.freepik.com/premium-photo/glowing-shimmering-stars-in-space-abstract-background_250994-1378.jpg);
+    background-position: -90px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 5px;
+    box-shadow: 0px 5px 5px
+    black;
+    
+
+}
+
+
+
+body {
+    background: rgb(0, 38, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+
+button {
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-image: url(https://img.freepik.com/premium-photo/glowing-shimmering-stars-in-space-abstract-background_250994-1378.jpg);
+    background-position: -90px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 5px;
+    box-shadow: 0px 5px 5px
+    black;
+    
+
+        
+    
+}
+
+header .header .logo img {
+    animation-name: logo-animation;
+    animation-duration: 5s;
+}
+
+@keyframes logo-animation {
+    0% {
+        width: 626px;  
+    }
+    100% {
+        width: 665px;
+    }
+}
+
+.button:hover {
+    box-shadow: 0px 3px 3px black;
+    color: black;
+    background-color: white;
+}
